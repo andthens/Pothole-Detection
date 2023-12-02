@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainWindowhmJXXG.ui'
+## Form generated from reading UI file 'mainWindowzhvYEn.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.5.1
 ##
@@ -155,7 +155,7 @@ class Ui_mainWindow(object):
         self.scanFrame.setCursor(QCursor(Qt.PointingHandCursor))
         self.scanFrame.setStyleSheet(u"QFrame\n"
 "{\n"
-"	border: 5px solid #81a1c1;\n"
+"	border: 5px solid #008000;\n"
 "	border-radius: 80px;\n"
 "}\n"
 "QFrame:hover\n"
@@ -176,7 +176,7 @@ class Ui_mainWindow(object):
         self.scanlabel.setFont(font2)
         self.scanlabel.setStyleSheet(u"QLabel\n"
 "{\n"
-"	color: #81a1c1;\n"
+"	color: #008000;\n"
 "	border:none;\n"
 "}\n"
 "\n"
@@ -203,7 +203,7 @@ class Ui_mainWindow(object):
         self.updateFrame.setCursor(QCursor(Qt.PointingHandCursor))
         self.updateFrame.setStyleSheet(u"QFrame\n"
 "{\n"
-"	border: 5px solid #81a1c1;\n"
+"	border: 5px solid #008000;\n"
 "	border-radius: 80px;\n"
 "}\n"
 "QFrame:hover\n"
@@ -235,7 +235,7 @@ class Ui_mainWindow(object):
         self.updateLabel.setFont(font3)
         self.updateLabel.setStyleSheet(u"QLabel\n"
 "{\n"
-"	color: #81a1c1;\n"
+"	color: #008000;\n"
 "	border:none;\n"
 "}\n"
 "\n"
@@ -299,7 +299,7 @@ class Ui_mainWindow(object):
         self.homeButtonAbout.setCursor(QCursor(Qt.PointingHandCursor))
         self.homeButtonAbout.setStyleSheet(u"QPushButton\n"
 "{\n"
-"	border: 1px solid #b48ead;\n"
+"	border: 1px solid #008000;\n"
 "	border-radius: 5px;\n"
 "	color: #81a1c1;\n"
 "	background-color: #2e3440;\n"
@@ -378,7 +378,7 @@ class Ui_mainWindow(object):
 "")
         self.label_3 = QLabel(self.frameAboutContent)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(10, 230, 571, 16))
+        self.label_3.setGeometry(QRect(10, 80, 571, 16))
         self.label_3.setFont(font5)
         self.label_3.setStyleSheet(u"QLabel\n"
 "{\n"
@@ -429,7 +429,7 @@ class Ui_mainWindow(object):
 
         self.retranslateUi(mainWindow)
 
-        self.stackedHome.setCurrentIndex(3)
+        self.stackedHome.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(mainWindow)
@@ -443,7 +443,7 @@ class Ui_mainWindow(object):
 #if QT_CONFIG(tooltip)
         self.scanFrame.setToolTip("")
 #endif // QT_CONFIG(tooltip)
-        self.scanlabel.setText(QCoreApplication.translate("mainWindow", u"UPLOAD", None))
+        self.scanlabel.setText(QCoreApplication.translate("mainWindow", u"BROWSE", None))
         self.scanImg.setText("")
 #if QT_CONFIG(tooltip)
         self.updateFrame.setToolTip("")
@@ -460,15 +460,10 @@ class Ui_mainWindow(object):
         self.ProjectTitle.setText(QCoreApplication.translate("mainWindow", u"POTHOLE DETECTION", None))
         self.AboutGithub.setText("")
         self.AboutGPL.setText("")
-        self.label.setText(QCoreApplication.translate("mainWindow", u"An opensource antivirus solution based on ClamAV.", None))
+        self.label.setText(QCoreApplication.translate("mainWindow", u"An AI Powered POTHOLE DETECTION PROJECT", None))
         self.label_2.setText(QCoreApplication.translate("mainWindow", u"Developed by: \n"
-"Adith K. Murali, Bilal Jafar, Vinayak Bhat S.\n"
-"\n"
-"Artwork and design by:\n"
-"Jisin Thomas\n"
-"\n"
-"This software is free software, you can modify or redistribute it under the terms of GNU General Public License version 2\n"
-"or later.", None))
+"Sreelekshmi Prasannakumar, Vignesh Mahesh, Unnikrishnan V H, Sreedev B.\n"
+"", None))
         self.label_3.setText(QCoreApplication.translate("mainWindow", u"Developed using PySide6 and Python3. ", None))
         self.engineVer.setText(QCoreApplication.translate("mainWindow", u"POTHOLE DETECTION Version: 0.1.1", None))
     # retranslateUi
